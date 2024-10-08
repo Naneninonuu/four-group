@@ -135,20 +135,24 @@
         height: 4.3vw;
         font-size: 3.3vw;
         text-align: center;
+        float:none;
     }
     #submit{
-        margin: 6% 0% 0% 0%;
+        margin: 8% 4% 0% 0%;
         border: 2px solid;
         background-color: hsl(0, 0%, 100%);
         width: 5vw;
-        height: 4vw;
+        height: 3.6vw;
         font-size: 2.2vw;
-        float: right;
+        float:right;
+        text-align: center;
     }
     #text{
-        margin: -2% 4% 0% 0%;
+        margin: -2% 5% 0% 0%;
+        background-color: aqua;
         float:right;
-        font-size: 4.5vw;
+        font-size: 4vw;
+        width:40vw;
     }
     #text2{
         float:left;
