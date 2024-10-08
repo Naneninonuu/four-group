@@ -4,6 +4,7 @@
 }
 #image{
     width: 80%;
+    margin: 0% 0% 0% 0%;
     height: auto;
 }
 .button{
@@ -53,7 +54,7 @@
     background-color: hsl(0, 0%, 60%);
 }
 #text{
-    font-size: 2.5vw;
+    font-size: 2vw;
 }
 #text2{
     font-size: 2.9vw;
@@ -63,16 +64,17 @@
 #input{
     margin-top: 5%;
     background-color: hsl(0, 0%, 100%);
-    width: 6vw;
+    width: 5vw;
     height: 4.3vw;
     font-size: 3vw;
 }
 #submit{
     border: 2px solid;
     background-color: hsl(0, 0%, 100%);
-    width: 4vw;
+    width: 3vw;
     height: 2.5vw;
     font-size: 1.5vw;
+    margin-top: 15%;
     float: right;
 }
 #submit:hover{
@@ -80,4 +82,79 @@
 }
 #submit:active{
     background-color: hsl(0, 0%, 60%);
+}
+@media only screen and (max-width: 425px){
+    #image{
+        margin: 0% 3% 0% 3%;
+        width: 95%;
+        height: auto;
+    }
+    .button{
+        clear:both;
+        float: left;
+        width: 95%;
+    }
+    #title{
+        width: 19vw;
+        height: 4.3vw;
+        border-radius: 50%;
+        text-align: center;
+        font-size: 4.7vw;
+    }
+    #next{
+        margin: -9% 0% 0% 0%;
+        background-color: hsl(0, 0%, 100%);
+        width: 12vw;
+        height: 5.3vw;
+        border-radius: 50%;
+        text-align: center;
+        font-size: 3.3vw;
+        padding: 0% 0% 0% 0%;
+        border:1.5px solid;
+        float: right;
+        box-shadow:1.2px 1.2px 1px 1px hsla(0, 0%, 18%, 0.88);
+    }
+    #back{
+        margin: -9% 15% 0% 0%;
+        background-color: hsl(0, 0%, 100%);
+        width: 12vw;
+        height: 5.3vw;
+        border-radius: 50%;
+        text-align: center;
+        font-size: 3.3vw;
+        padding: 0% 0% 0% 0%;
+        border:1.5px solid;
+        float: right;
+        box-shadow:1.2px 1.2px 1px 1px hsla(0, 0%, 18%, 0.88);
+    }
+    #input{
+        clear: both;
+        margin-top: 5%;
+        background-color: hsl(0, 0%, 100%);
+        width: 8vw;
+        height: 4.3vw;
+        font-size: 3.3vw;
+        text-align: center;
+    }
+    #submit{
+        margin: 6% 0% 0% 0%;
+        border: 2px solid;
+        background-color: hsl(0, 0%, 100%);
+        width: 5vw;
+        height: 4vw;
+        font-size: 2.5vw;
+        float: right;
+    }
+    #text{
+        margin: -2% 4% 0% 0%;
+        float:right;
+        font-size: 4.5vw;
+    }
+    #text2{
+        float:left;
+        margin: 0% 0% 0% 0%;
+        font-size: 5.7vw;
+        text-align: center;
+        color: hsl(0, 10%, 86%);
+    }
 }
